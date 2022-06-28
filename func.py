@@ -1,6 +1,6 @@
 from infos import*
 
-class funço:
+class Opt:
     def __init__(self):
         self.listaProdutos = []
 

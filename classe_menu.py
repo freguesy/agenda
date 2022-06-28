@@ -1,23 +1,24 @@
+from pyparsing import Opt
 from func import*
 
 class Menu:
    def __init__(self):
-    Funço = funço()
+    opt = Opt()
         
         
     while True:
-        entrada = input('1 - Salvar Produtos\n2 - Listar Produtos\n3 - Buscar produto\n4 - Alterar Produto\n0 - Sair')
+        entrada = input('1 - Cadastro\n2 - Listar Produtos\n3 - Buscar produto\n4 - Alterar Produto\n0 - Sair')
         if entrada == '1':
-            funço.salvar_produtos()
+            opt.salvar_produtos()
 
         elif entrada == '2':
-            funço.listar_produtos()
+            opt.listar_produtos()
 
         elif entrada == '3':
-            funço.buscar_produto()
+            opt.listar_produtos()
 
         elif entrada == '4':
-            funço.alterar_produto()
+            opt.alterar_produto()
          
         elif entrada == '0':
             break
