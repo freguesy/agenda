@@ -15,4 +15,4 @@ class funço:
         b = input("buscar o produto por nome para mudar")
         for i in range(len(self.listaProdutos)):
             if b == self.listaProdutos[i].cod:
-                self.listaProdutos[i].telefone = input('Digite o novo número')
+                self.listaProdutos[i].descrição = input('Digite o novo número')
