@@ -6,9 +6,9 @@ class Menu:
         
         
     while True:
-        entrada = input('1 - Cadastro\n2 - Listar Produtos\n3 - Buscar produto\n4 - Alterar Produto\n0 - Sair')
+        entrada = input('1 - Salvar Produtos\n2 - Listar Produtos\n3 - Buscar produto\n4 - Alterar Produto\n0 - Sair')
         if entrada == '1':
-            funço.cadastro()
+            funço.salvar_produtos()
 
         elif entrada == '2':
             funço.listar_produtos()
