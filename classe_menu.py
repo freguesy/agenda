@@ -1,25 +1,28 @@
-from Agenda import*
+from func import*
 
 class Menu:
-    def __init__(self):
-        agenda = agenda()
+   def __init__(self):
+    Funço = funço()
         
         
-        while True:
-            entrada = input('1 - Novo Contato\n2 - Listar Contatos\n0 - Sair')
-            if entrada == '1':
-                agenda.salvar_contatos()
+    while True:
+        entrada = input('1 - Cadastro\n2 - Listar Produtos\n3 - Buscar produto\n4 - Alterar Produto\n0 - Sair')
+        if entrada == '1':
+            funço.cadastro()
 
-            elif entrada == '2':
-                agenda.Listar_contatos()
+        elif entrada == '2':
+            funço.listar_produtos()
 
-            elif entrada == '3':
-                agenda.mudar_contato()
+        elif entrada == '3':
+            funço.buscar_produto()
 
-            elif entrada == '0':
-                break
-            else:
-                print('erro')
+        elif entrada == '4':
+            funço.alterar_produto()
+         
+        elif entrada == '0':
+            break
+        else:
+            print('erro')
 
 
 
